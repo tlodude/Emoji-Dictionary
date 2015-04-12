@@ -7,3 +7,16 @@
 //
 
 import Foundation
+import UIKit
+
+class EmojiDetailViewController : UIViewController {
+   
+    @IBOutlet weak var emojiLabel: UILabel!
+    
+    var emoji = "👖"
+    
+    override func viewDidLoad() {
+        self.emojiLabel.text = self.emoji
+    }
+}
+
