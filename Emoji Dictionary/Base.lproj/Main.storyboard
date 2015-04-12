@@ -99,6 +99,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="emojiDefinitionLabel" destination="OWm-OT-TPO" id="sIE-Cj-qKZ"/>
                         <outlet property="emojiLabel" destination="bQi-Gn-HMS" id="5DZ-G4-N9C"/>
                     </connections>
                 </viewController>
